@@ -1,20 +1,20 @@
 mermaid
 
 ```mermaid
-
 flowchart TD
-    CTSS["CTSS<br/>Operating system - N/A"]
+    CTSS["CTSS<br/>N/A"]
     RUNCOM["RUNCOM<br/>NTC<br/>Louis Pouzin"]
-    MULTICS["Multics shell<br/>TC"]
-    THOMPSON["Thompson shell<br/>NTC"]
-    PWB["PWB / Mashey shell<br/>TC"]
-    BOURNE["Bourne shell<br/>TC"]
-    BASH["Bash<br/>TC"]
+    STRACHEY["Strachey's macro-generator<br/>NTC<br/>Christopher Strachey"]
+    MULTICS["Multics shell<br/>TC<br/>Glenda Schroeder and GE collaborator"]
+    THOMPSON["Thompson shell<br/>NTC<br/>Ken Thompson"]
+    PWB["PWB / Mashey shell<br/>TC<br/>John Mashey"]
+    BOURNE["Bourne shell<br/>TC<br/>Stephen Bourne"]
+    BASH["Bash<br/>TC<br/>Brian Fox"]
 
     CTSS --> RUNCOM
     RUNCOM --> MULTICS
-    CTSS --> THOMPSON
-    MULTICS -.-> THOMPSON
+    STRACHEY --> MULTICS
+    MULTICS --> THOMPSON
     THOMPSON --> PWB
     THOMPSON --> BOURNE
     PWB -.-> BOURNE
