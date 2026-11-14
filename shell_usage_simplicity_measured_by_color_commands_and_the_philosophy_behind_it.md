@@ -138,9 +138,11 @@ Fish's own documentation warns that its non-POSIX convention syntax can cause pr
 
 ## 3\. POSIX Compliance
 
-Neither Nushell nor Elvish is POSIX-compliant.
+Just like Fish, Neither Nushell nor Elvish is POSIX-compliant.
 
 Both have their own syntax and language semantics, although they can execute external programs and interact with traditional Unix tools.
+
+Long term work may require Bash with bash-colors.
 
 ## 4\. Turing Completeness
 
