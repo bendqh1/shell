@@ -1,6 +1,6 @@
 Abbreviations explained at chart legend (under the chart).
 
-mermaid
+---
 
 ```mermaid
 flowchart TD
