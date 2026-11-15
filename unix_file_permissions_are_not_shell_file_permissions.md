@@ -1,6 +1,6 @@
 ## Unix File Permissions are not shell file permissions (there is no such thing as shell file permissions)
 
-And Unix and virtually all Unix-like operating systems, we have files of different types and their permissions.
+In Unix and virtually all Unix-like operating systems, we have files of different types and their permissions.
 
 ```
 TRWX
