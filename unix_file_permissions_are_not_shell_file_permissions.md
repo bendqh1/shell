@@ -50,7 +50,7 @@ A file can have only one owner and only one owning group.
 * `X` for execute, should have been `E` for execute.
 * There is no unique single character for the above `T`.
 * The term "group" can make people mistake that there is a "group of owners" but actually there is only one owner.
-* `-` can stand both for `regular file` and `0` but if there were two different unique computer characters for this, lots of confusion between `-` contextual meaning would have been spared.
+* `-` can stand both for `regular file` and `0` but if there were two different unique computer characters for this, lots of confusion between `-` contextual meanings would have been spared.
 
 ## Clarification: File permissions are not shell-specific
 
