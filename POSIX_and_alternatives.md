@@ -32,9 +32,9 @@ This is where Fish, Nushell, and Elvish become interesting.
 
 ---
 
-# Part 2: Three approaches to modern shells
+## Part 2: Three approaches to modern shells
 
-## 2.1 Fish shell
+### 2.1 Fish shell
 
 Philosophy: User experience first.
 
@@ -52,7 +52,7 @@ Main characteristics:
 
 Fish primarily attempts to improve the human interface to the command line.
 
-## 2.2 Nushell
+### 2.2 Nushell
 
 Philosophy: Change the data model.
 
@@ -78,7 +78,7 @@ Its approach is fundamentally different from traditional Unix shells.
 In a sense, the authors of Nushell try to "re-invent" the Unix shell concept or the shell concept itself, 
   but in a way that is more aligned with common users and the different types of structured data that have become standardized.
 
-## 2.3 Elvish
+### 2.3 Elvish
 
 Philosophy: A shell should also be a modern programming language.
 
@@ -95,17 +95,17 @@ Rather than simply extending traditional shell syntax, Elvish attempts to provid
 
 ---
 
-# Part 3: Why is this happening?
+## Part 3: Why is this happening?
 
 There are several important reasons.
 
-## 3.1 The world has changed
+### 3.1 The world has changed
 
 JSON, APIs, containers, Kubernetes, and cloud infrastructure have become part of everyday development.
 
 Raw text is not always the best interface for exchanging data.
 
-## 3.2 Shells have become programming languages
+### 3.2 Shells have become programming languages
 
 People increasingly write complex logic in shell environments.
 
@@ -119,13 +119,13 @@ This includes:
 
 However, traditional shells such as Bash still carry many historical conventions and limitations.
 
-## 3.3 The lack of a modern type system
+### 3.3 The lack of a modern type system
 
 A string, number, Boolean, record, and list are fundamentally different types of data.
 
 Traditional POSIX shell scripting does not naturally distinguish between these types.
 
-## 3.4 Backward compatibility limits innovation
+### 3.4 Backward compatibility limits innovation
 
 When changing existing behavior might break millions of scripts, changing the language becomes difficult.
 
@@ -133,7 +133,7 @@ Backward compatibility is valuable, but it can also restrict innovation.
 
 ---
 
-# Part 4: Is this really a movement against POSIX?
+## Part 4: Is this really a movement against POSIX?
 
 Not exactly.
 
@@ -164,7 +164,7 @@ One important observation is that the problem is not necessarily limited to shel
 
 ---
 
-# Part 5: The deeper conceptual change
+## Part 5: The deeper conceptual change
 
 Historically, the Unix shell was understood approximately as follows:
 
@@ -197,13 +197,13 @@ It is a reconsideration of what a shell should be.
 
 ---
 
-# Part 6: Standard input and output streams
+## Part 6: Standard input and output streams
 
 The discussion then moved to stdin, stdout, and stderr.
 
 These are the three standard streams available to a process.
 
-## 6.1 stdin
+### 6.1 stdin
 
 File descriptor: 0
 
@@ -218,7 +218,7 @@ Typically, this input comes from:
 - Another process through a pipe.
 - A file through input redirection.
 
-## 6.2 stdout
+### 6.2 stdout
 
 File descriptor: 1
 
@@ -233,7 +233,7 @@ Typically, this output goes to:
 - Another process through a pipe.
 - A file through output redirection.
 
-## 6.3 stderr
+### 6.3 stderr
 
 File descriptor: 2
 
@@ -250,7 +250,7 @@ Typically, this output goes to:
 
 ---
 
-# Part 7: How long do these streams remain available?
+## Part 7: How long do these streams remain available?
 
 An important distinction:
 
