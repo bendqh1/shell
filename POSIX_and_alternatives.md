@@ -197,7 +197,7 @@ It is a reconsideration of what a shell should be.
 
 ---
 
-# Final perspective
+## Final perspective
 
 The evolution of shells is about more than syntax.
 
