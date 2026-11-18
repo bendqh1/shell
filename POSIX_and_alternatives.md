@@ -1,8 +1,3 @@
-# POSIX, Modern Shells, and Standard Streams
-## A discussion about Unix shells and their evolution
-
----
-
 # Part 1: Are people getting tired of POSIX?
 
 Question:
@@ -15,7 +10,7 @@ Examples include the creators of:
 - Nushell
 - Elvish
 
-Answer:
+# Answer (with my small edits):
 
 Yes. There is a real trend, but it is more accurate to describe it this way:
 
